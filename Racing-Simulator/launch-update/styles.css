@@ -63,6 +63,9 @@
   }
   button {
   background-color: #1c2833;
+  justify-content: center;;
+  display: inline-block;;
+  text-align: center;
   color: white;
   padding: 10px;
   border-radius: 5px;
