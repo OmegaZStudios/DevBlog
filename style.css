@@ -1,0 +1,53 @@
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Centrar el contenido */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Estilos de la sección de cada devblog */
+  .devblog {
+    margin: 30px;
+  }
+  
+  .devblog h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .devblog img {
+    display: block;
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .devblog p {
+    margin-bottom: 20px;
+  }
+  
+  .devblog a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .devblog a:hover {
+    background-color: #3E8E41;
+  }
+  
